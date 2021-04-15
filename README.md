@@ -9,3 +9,10 @@ CREATE DATABASE NOME_DO_DATABASE;
 npm init -y
 npm i nodemon -D
 npm i knex pg express
+
+# knex
+
+npx knex init
+npx knex migrate:make create_table_users
+npx knex migrate:latest
+npx knex seed:make 001_users
