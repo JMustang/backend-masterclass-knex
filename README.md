@@ -2,7 +2,10 @@
 
 ## Database com postgresSQL
 
-- CREATE DATABASE NOME_DO_DATABASE;
+- sudo -u postgres psql // Loga no postgres
+- CREATE DATABASE NOME_DO_DATABASE; // cria o DATABASE
+- \c NOME_DO_DATABASE; // entra no DATABASE
+- SELECT \* FROM users; // retorna o que tem na tabela users
 
 ## NODE
 
@@ -16,3 +19,4 @@
 - npx knex migrate:make create_table_users
 - npx knex migrate:latest
 - npx knex seed:make 001_users
+- npx knex seed:run
