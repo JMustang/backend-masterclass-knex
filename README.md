@@ -7,6 +7,8 @@
 - \c NOME_DO_DATABASE; // entra no DATABASE
 - SELECT \* FROM users; // retorna o que tem na tabela users
 
+- 17 comandos praticos do [postgresSQL](https://www.postgresqltutorial.com/psql-commands/)
+
 ## NODE
 
 - npm init -y
@@ -20,3 +22,7 @@
 - npx knex migrate:latest
 - npx knex seed:make 001_users
 - npx knex seed:run
+
+[KNEX.JS](http://knexjs.org/#Migrations)
+
+[Knex cheatsheet](https://devhints.io/knex)
