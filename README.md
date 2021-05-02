@@ -20,8 +20,9 @@
 - npx knex init
 - npx knex migrate:make create_table_users
 - npx knex migrate:latest
-- npx knex seed:make 001_users
-- npx knex seed:run
+- npx knex seed:make 001_users // cria uma seed
+- npx knex seed:run // roda todas as seeds
+- npx knex seed:run --specific nome_da_seed.js // roda uma seed especifica
 
 [KNEX.JS](http://knexjs.org/#Migrations)
 
