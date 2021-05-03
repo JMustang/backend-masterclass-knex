@@ -10,6 +10,7 @@
 - CREATE DATABASE NOME_DO_DATABASE; => cria o DATABASE
 - \c NOME_DO_DATABASE; => entra no DATABASE
 - SELECT \* FROM users; => retorna o que tem na tabela users
+- INSERT INTO projects (title, user_id) VALUES ('outro projeto', 6);
 
 - 17 comandos praticos do [postgresSQL](https://www.postgresqltutorial.com/psql-commands/)
 
