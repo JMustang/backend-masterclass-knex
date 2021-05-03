@@ -1,19 +1,23 @@
-# Backend Masterclass com node e Knex.
+<p align="center">
+<img src="./node.png" alt="drawing" width="150"/>
+</p>
+
+# Backend Masterclass com NODE e Knex.
 
 ## Database com postgresSQL
 
-- sudo -u postgres psql // Loga no postgres
-- CREATE DATABASE NOME_DO_DATABASE; // cria o DATABASE
-- \c NOME_DO_DATABASE; // entra no DATABASE
-- SELECT \* FROM users; // retorna o que tem na tabela users
+- sudo -u postgres psql => Loga no postgres
+- CREATE DATABASE NOME_DO_DATABASE; => cria o DATABASE
+- \c NOME_DO_DATABASE; => entra no DATABASE
+- SELECT \* FROM users; => retorna o que tem na tabela users
 
 - 17 comandos praticos do [postgresSQL](https://www.postgresqltutorial.com/psql-commands/)
 
 ## NODE
 
-- npm init -y
-- npm i nodemon -D
-- npm i knex pg express
+- npm init -y => Inicia uma aquivo package.json.
+- npm i nodemon -D => Adiciona o pacote nodemon como dependência de desenvolvimento "-D".
+- npm i knex pg express => Adiciona os pacotes knex, pg e express.
 
 # knex
 
