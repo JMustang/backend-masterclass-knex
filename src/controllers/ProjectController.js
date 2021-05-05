@@ -29,6 +29,7 @@ module.exports = {
       next(error);
     }
   },
+  // rota POST
   async create(req, res, next) {
     try {
       const { title, user_id } = req.body;
